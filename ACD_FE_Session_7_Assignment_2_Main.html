@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FED Session 7 Assignment 2</title>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="fed-session7-assingment2">
+	<h2>Assignment 2: Make a Registration form using Bootstrap form Elements and edit the data inside the form with using Bootstrap JavaScript Components such as Modal.</h2>
+	<div class="register-btn-block">
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registerModel">Registration Form</button>
+	</div>
+				
+	<div class="modal fade" id="registerModel" tabindex="-1" role="dialog" aria-labelledby="registerForm">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+		    <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Registration Form</h4>
+	      	</div>
+	      	<div class="modal-body">
+		      	<form class="form-horizontal" action="ACD_FE_Session_7_Assignment_3_Main.html" name="registrationForm" method="post" id="registrationForm">
+					<div class="form-group">
+						<label for="inputEmail" class="col-sm-4 control-label">Email</label>
+						<div class="col-sm-8">
+						  <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputUsrName" class="col-sm-4 control-label">User Name</label>
+						<div class="col-sm-8">
+						  <input type="text" class="form-control" id="inputUsrName" placeholder="User Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputFName" class="col-sm-4 control-label">First Name</label>
+						<div class="col-sm-8">
+						  <input type="text" class="form-control" id="inputFName" placeholder="First Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputLName" class="col-sm-4 control-label">Last Name</label>
+						<div class="col-sm-8">
+						  <input type="text" class="form-control" id="inputLName" placeholder="Last Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password" class="col-sm-4 control-label">Password</label>
+						<div class="col-sm-8">
+						  <input type="password" minlength="5" class="form-control" id="password" placeholder="Password" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="confirm_password" class="col-sm-4 control-label">Confirm Password</label>
+						<div class="col-sm-8">
+						  <input type="password" class="form-control" id="confirm_password" placeholder="Confirm Password" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-4 col-sm-8">
+						  <button type="submit" id="regUsrSubmit" class="btn btn-default">Register</button>
+						</div>
+					</div>
+				</form>
+			</div>
+	    </div>
+	  </div>
+	</div>
+	
+	<!-- Script Block -->
+	<script src="js/registration.js" type="text/javascript"></script>
+</body>
+</html>

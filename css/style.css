@@ -1,0 +1,13 @@
+*{padding: 0;margin: 0; outline:none;}
+ul{padding: 0;margin: 0;}
+li{padding: 0;margin: 0;list-style: none;}
+body{font:normal 14px tahoma; padding: 15px;}
+/* Assignment 2 */
+	.register-btn-block{border:1px solid #666; background: #f2f2f2; border-radius: 3px; width: 250px; margin:50px auto; padding: 15px; text-align: center;}
+	.reg-table th{background: #ccc;}
+	.reg-table tr:nth-child(even){background: #eee;}
+	.back-link{position: absolute;right: 20px;top: 40px;}
+	.back-link a{font-size: 23px;color: #00257a}
+	.back-link span{display: inline-block;vertical-align: top; padding-right: 3px;}
+	h2{margin-bottom: 25px; font-size: 25px;}
+	
